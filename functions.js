@@ -84,8 +84,6 @@ const uniq = function (array) {
   return result2;
 };
 
-//let array = [1,2,3] let result = array.reduce((startingValue, accumulatedValue) => {
-// })
 const reduce = function (collection, iterator, accumulator) {
   let initializing = arguments.length === 2;
   each(collection, function (value) {
